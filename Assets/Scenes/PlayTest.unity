@@ -172,7 +172,20 @@ MonoBehaviour:
   _bot: {fileID: 235214629}
   _botScript: 'move 1
 
-    turn 30'
+    turn 90
+
+    move 2
+
+    turn 90
+
+    move 1
+
+    turn
+    90
+
+    move 2
+
+    turn 90'
 --- !u!114 &235214629
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -185,6 +198,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca1b67807c154473ada4edd8e075e93e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _moveSpeed: 1
+  _turnSpeed: 45
 --- !u!1 &291999040
 GameObject:
   m_ObjectHideFlags: 0
